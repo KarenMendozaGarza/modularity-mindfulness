@@ -19,9 +19,56 @@ html {
 
 body {
   margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+ul li {
+  /* font-style: normal; */
+  margin: .5em 1em .6em;
+  font-style: normal;
+}
+
+a {
+  color: #3783a3;
+}
+
+figcaption > a {
+  text-decoration: none;
+  font-style: normal;
+  border: .2rem #3783a3 solid;
+  padding: 1rem;
+  border-radius: .3rem;
+}
+
+div {
+  text-align: center;
+  border-top: .2rem solid #e2e2e2;
+  border-bottom: .2rem solid #e2e2e2;
+}
+
+
+
 
 img {
   display: block;
   width: 100%;
 }
+
+*Typefaces:* (Already included in your HTML)
+- *Text sizes:* `1rem`, `1.125rem`, `1.5rem`, `2rem`
+- *Colours:* `#e2e2e2`, `#3783a3`, `#000`
+- *Max lengths:* `30em`
+- *Gaps:* `1rem`
+- *Margins:* `1.5rem`
+- *Paddings:* `.5em 1em .6em`, `1rem`, `.5rem`
+- *Border thicknesses:* `.2rem`
+- *Corner radii:* `.3rem`
