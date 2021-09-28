@@ -21,7 +21,11 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "banner banner banner"
+    "col1    col2    col3";
   grid-gap: 1rem;
+
 }
 
 nav ul {
@@ -53,9 +57,14 @@ div {
   text-align: center;
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
+  max-width: 30em;
+
+  grid-area: banner;
 }
 
-
+header {
+  grid-area: banner;
+}
 
 
 img {
