@@ -19,12 +19,7 @@ html {
 
 body {
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "banner banner banner"
-    "col1    col2    col3";
-  grid-gap: 1rem;
+  padding: 1rem;
 }
 
 img {
@@ -32,11 +27,25 @@ img {
   width: 100%;
 }
 
+header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 ul li {
@@ -57,8 +66,13 @@ figcaption > a {
   border-radius: .3rem;
 }
 
+main {
+  /* margin: 1.5rem; */
+}
+
 .intro {
-  align-items: center;
+  margin: 1.5rem auto 1.5rem;
+  padding: 2rem;
   text-align: center;
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
@@ -70,15 +84,10 @@ figcaption > a {
   font-size: 2rem;
 }
 
-header {
-  grid-area: banner;
-  margin: 1.5rem;
-}
-
 section {
   /* display: flex;
   flex-wrap: wrap; */
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
 }
 
 figure {
@@ -91,6 +100,10 @@ span {
   font-style: normal;
 }
 
+h1 {
+  display: flex;
+  flex-direction: column;
+}
 
 *Typefaces:* (Already included in your HTML)
 - *Text sizes:* `1rem`, `1.125rem`, `1.5rem`, `2rem`
