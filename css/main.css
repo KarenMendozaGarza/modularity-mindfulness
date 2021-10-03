@@ -131,7 +131,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  padding: 0rem .5rem 1rem;
+}
+
+h1 {
+  align-items: flex-start;
 }
 
 section {
@@ -139,11 +144,10 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+article p {
+  flex-grow: 1;
 }
+
 
 *Typefaces:* (Already included in your HTML)
 - *Text sizes:* `1rem`, `1.125rem`, `1.5rem`, `2rem`
