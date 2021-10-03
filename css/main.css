@@ -62,7 +62,7 @@ a {
   color: #3783a3;
 }
 
-figcaption > a {
+article > a {
   text-decoration: none;
   font-style: normal;
   border: .2rem #3783a3 solid;
@@ -99,15 +99,14 @@ section {
   grid-gap: 1rem;
 }
 
-figure {
+article {
   margin: 0;
-}
-
-figcaption {
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 h1 > span {
   font-size: 1.125rem;
@@ -140,7 +139,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-figcaption {
+article {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
