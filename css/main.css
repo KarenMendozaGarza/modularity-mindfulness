@@ -35,7 +35,9 @@ header {
 }
 
 h1 {
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
   margin: 0;
   padding: 0;
 }
@@ -46,12 +48,14 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
+;
 }
 
 ul li {
   /* font-style: normal; */
-  margin: .5em 1em .6em;
+  font-size: 1.125rem;
   font-style: normal;
+  padding: 0 .5rem 1rem;
 }
 
 a {
@@ -62,7 +66,7 @@ figcaption > a {
   text-decoration: none;
   font-style: normal;
   border: .2rem #3783a3 solid;
-  padding: 1rem;
+  padding: .5em 1em .6em;
   border-radius: .3rem;
 }
 
@@ -72,7 +76,7 @@ main {
 
 .intro {
   margin: 1.5rem auto 1.5rem;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
@@ -84,25 +88,43 @@ main {
   font-size: 2rem;
 }
 
+h2 {
+  display: flex;
+  flex-direction: column;
+}
+
 section {
-  /* display: flex;
-  flex-wrap: wrap; */
-  /* margin: 1.5rem; */
+  display: grid;
+  grid-template: 1fr;
+  grid-gap: 1rem;
 }
 
 figure {
   margin: 0;
 }
 
+figcaption {
+  display: flex;
+  flex-direction: column;
+}
 
-span {
-  font-size: 1rem;
+
+
+h1 > span {
+  font-size: 1.125rem;
   font-style: normal;
 }
 
-h1 {
-  display: flex;
-  flex-direction: column;
+h2 > span {
+  font-size: 1rem;
+}
+
+
+footer {
+  border-top: .2rem solid #e2e2e2;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 *Typefaces:* (Already included in your HTML)

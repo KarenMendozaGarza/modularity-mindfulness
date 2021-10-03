@@ -18,15 +18,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 
 ## Details
 
-- *Typefaces:* (Already included in your HTML)
-- *Text sizes:* `1rem`, `1.125rem`, `1.5rem`, `2rem`
-- *Colours:* `#e2e2e2`, `#3783a3`, `#000`
-- *Max lengths:* `30em`
-- *Gaps:* `1rem`
-- *Margins:* `1.5rem`
-- *Paddings:* `.5em 1em .6em`, `1rem`, `.5rem`
-- *Border thicknesses:* `.2rem`
-- *Corner radii:* `.3rem`
+-
 
 ---
 
