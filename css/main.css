@@ -106,9 +106,8 @@ figure {
 figcaption {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
-
-
 
 h1 > span {
   font-size: 1.125rem;
@@ -125,6 +124,26 @@ footer {
   margin-top: 1.5rem;
   padding-top: 1rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 *Typefaces:* (Already included in your HTML)
